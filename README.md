@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="1.png"  height="425" >
+  <img src="2.png"  height="425" >
+</div>
+
 # Image Downloader 🖼️
 
 Uma extensão para navegador com o objetivo de facilitar o download de imagens. Ela identifica diversos tipos de imagens na tela e as apresenta em uma lista amigável, permitindo downloads com um clique.
