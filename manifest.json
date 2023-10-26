@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Image Downloader",
+  "version": "1.0",
+  "description": "Download images from any page",
+  "permissions": ["activeTab", "storage", "downloads"],
+  "browser_action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
